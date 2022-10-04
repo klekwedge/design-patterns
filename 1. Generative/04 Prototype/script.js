@@ -24,5 +24,25 @@ car1.autopilot = true;
 
 
 console.log(car1);
+// TeslaCar {
+//   model: 'S',
+//   price: 80000,
+//   interior: 'white',
+//   autopilot: true
+// }
+
 console.log(car2);
+// TeslaCar {
+//   model: 'S',
+//   price: 80000,
+//   interior: 'black',
+//   autopilot: false
+// }
+
 console.log(car3);
+// TeslaCar {
+//   model: 'S',
+//   price: 80000,
+//   interior: 'black',
+//   autopilot: false
+// }

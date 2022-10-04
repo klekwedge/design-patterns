@@ -66,8 +66,23 @@ class ConveyorFacade{
 const conveyor = new ConveyorFacade(new Conveyor());
 let car = conveyor.assembleCar();
 
+// Body set!
+// Engine set!
+// Interior added!
+// Added exterior!
+// Wheels!
+// Added electronics
+// Car painted!
+
 car = conveyor.changEngine();
+
+// Dismantle Engine!
+// Engine set!
+
 car = conveyor.changInterior();
 
-console.log(car);
+// Update interior!
+// Interior added!
+
+console.log(car); // undefined
 

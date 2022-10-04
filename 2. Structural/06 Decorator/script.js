@@ -53,12 +53,12 @@ let tesla = new Tesla();
 tesla = new Autopilot(tesla);
 tesla = new Parktronic(tesla);
 
-console.log(tesla.getPrice(), tesla.getDescription());
+console.log(tesla.getPrice(), tesla.getDescription()); // 33000 Tesla with autopilot with parktronic
 
 let tesla2 = new Tesla();
 tesla2 = new Autopilot(tesla2);
 
-console.log(tesla2.getPrice(), tesla2.getDescription());
+console.log(tesla2.getPrice(), tesla2.getDescription()); // 30000 Tesla with autopilot
 
 class Audi extends Car{
   constructor() {
@@ -71,4 +71,4 @@ class Audi extends Car{
 let audi = new Audi();
 audi = new Autopilot(audi);
 
-console.log(audi.getPrice(), audi.getDescription());
+console.log(audi.getPrice(), audi.getDescription()); // 25000 Audi with autopilot

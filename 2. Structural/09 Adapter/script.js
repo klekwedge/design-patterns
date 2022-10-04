@@ -30,12 +30,12 @@ class Auto {
 const myCar = new Auto();
 const oldEngine = new Engine2();
 
-myCar.startEngine(oldEngine);
+myCar.startEngine(oldEngine); // Engine 2.0
 
 const myCar2 = new Auto();
 const engineAdapter = new EnigneV8Adapter(new EngineV8());
 
-myCar2.startEngine(engineAdapter);
+myCar2.startEngine(engineAdapter); // Engine V8!
 
 // Error
 // const myCar3 = new Auto();

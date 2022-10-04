@@ -30,11 +30,10 @@ class SecuritySystem {
   }
 }
 
-
 const door = new SecuritySystem(new CarAccess());
 
-door.open('Jack');
+door.open('Jack'); // Access denied
 
-door.open('Ilon');
+door.open('Ilon'); // Opening car door
 
-door.close();
+door.close(); // Closing the car door

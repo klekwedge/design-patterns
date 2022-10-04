@@ -46,9 +46,23 @@ const myCar = new CarBuilder()
 
 console.log(myCar);
 
+// Car {
+//   autopilot: true,
+//   parktronic: true,
+//   signaling: false,
+//   engine: 'V8'
+// }
+
 const myNewCar = new CarBuilder()
   .addSignaling(true)
   .updateEngine('V4').build();
 
 
 console.log(myNewCar);
+
+// Car {
+//   autopilot: false,
+//   parktronic: false,
+//   signaling: true,
+//   engine: 'V4'
+// }

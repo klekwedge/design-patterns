@@ -47,4 +47,4 @@ class Bmw extends Model {
 }
 
 const blackBmw = new Bmw(new BlackColor());
-console.log(blackBmw.paint());
+console.log(blackBmw.paint()); // Auto: Bmw, Color: dark-black

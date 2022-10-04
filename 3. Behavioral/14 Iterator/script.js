@@ -35,6 +35,11 @@ while (collection.hasNext()) {
   console.log(collection.next());
 }
 
+// Audi
+// BMW
+// Tesla
+// Mercedes
+
 const autos = {
   audi: { model: 'Audi', color: 'black', price: '20000' },
   bmw: { model: 'Bmw', color: 'white', price: '30000' },
@@ -46,3 +51,7 @@ const collection2 = new Iterator2(autos);
 while (collection2.hasNext()) {
   console.log(collection2.next());
 }
+
+// { model: 'Audi', color: 'black', price: '20000' }
+// { model: 'Bmw', color: 'white', price: '30000' }
+// { model: 'Tesla', color: 'gray', price: '40000' }

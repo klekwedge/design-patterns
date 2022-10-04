@@ -26,10 +26,18 @@ class AutoFactory {
 
 const factory = new AutoFactory();
 
-const bmw = factory.create('BMW');
-const audi = factory.create('Audi');
-const tesla = factory.create('Tesla');
+const bmw = factory.create('BMW'); // model: 1
+const audi = factory.create('Audi'); // model: 2
+const tesla = factory.create('Tesla'); // model: 3
 const blackTesla = factory.create('Tesla');
 
 console.log(factory.getModels());
+
+// ┌─────────┬─────────┐
+// │ (index) │  model  │
+// ├─────────┼─────────┤
+// │   BMW   │  'BMW'  │
+// │  Audi   │ 'Audi'  │
+// │  Tesla  │ 'Tesla' │
+// └─────────┴─────────┘
 

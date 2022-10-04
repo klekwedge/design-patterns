@@ -28,4 +28,4 @@ const produce = bmwProducer('sport');
 
 const myCar = new produce();
 
-console.log(myCar.info());
+console.log(myCar.info()); // Z4 is a Sport car!

@@ -27,5 +27,5 @@ const factory = new BmwFactory();
 const x5 = factory.create('X5');
 const x6 = factory.create('X6');
 
-console.log(x5);
-console.log(x6);
+console.log(x5); // Bmw { model: 'X5', price: 108000, maxSpeed: 300 }
+console.log(x6); // Bmw { model: 'X6', price: 111000, maxSpeed: 320 }

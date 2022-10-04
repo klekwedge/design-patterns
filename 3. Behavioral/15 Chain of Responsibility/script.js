@@ -56,4 +56,18 @@ paypal.setNext(qiwi);
 
 master.pay(438);
 
+// Cannot pay using Master Card
+// Cannot pay using Paypal
+// Paid 438 using Qiwi
+
 master.show();
+
+// Master {
+//   name: 'Master Card',
+//   balance: 100,
+//   incomer: Paypal {
+//     name: 'Paypal',
+//     balance: 200,
+//     incomer: Qiwi { name: 'Qiwi', balance: 500 }
+//   }
+// }

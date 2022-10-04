@@ -42,6 +42,11 @@ const ben = new Customer('Ben', mediator);
 const leo = new Customer('Leo', mediator);
 
 ben.makeOrder('Tesla', 'With autopilot');
-leo.makeOrder('Audi', 'With parktronic');
+// Order name: Ben. Order auto is Tesla
+// Additional info: With autopilot
 
-console.log(mediator.getCustomerList());
+leo.makeOrder('Audi', 'With parktronic');
+// Order name: Leo. Order auto is Audi
+// Additional info: With parktronic
+
+console.log(mediator.getCustomerList()); // [ 'Ben', 'Leo' ]
